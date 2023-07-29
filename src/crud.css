@@ -1,0 +1,36 @@
+.crud{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table td {
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    text-align: center;
+    color: brown;
+}
+table td button {
+    padding: 5px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+table td button.edit{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+}
+table td button.edit.hover{
+    background-color: black;
+
+}
+table td button.delete{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+table td button.delete.hover{
+    background-color: black;
+    
+}
